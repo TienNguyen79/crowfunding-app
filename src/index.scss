@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply font-primary text-base font-normal mx-auto;
+    line-height: 1.5;
+  }
+  input {
+    @apply outline-none;
+  }
+}
+
+input:focus + .error-input {
+  display: none;
+}
+
+.quill {
+  @apply border border-strock rounded-xl;
+  padding: 15px 25px;
+
+  .ql-toolbar.ql-snow {
+    border: none;
+    @apply bg-text4 bg-opacity-10 rounded-xl py-3 px-5 inline-block;
+  }
+  .ql-container.ql-snow,
+  .ql-editor {
+    @apply border-none font-primary text-sm;
+  }
+  .ql-editor {
+    @apply pt-10;
+  }
+  .ql-editor.ql-blank::before {
+    @apply text-sm not-italic text-text4;
+  }
+}
+
+.gradient-banner {
+  background-image: linear-gradient(
+      179.14deg,
+      rgba(32, 18, 63, 0.4) -7.14%,
+      rgba(0, 0, 0, 0.4) 87.01%
+    ),
+    url("https://images.unsplash.com/photo-1659948782675-9d4fadea983b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+}
+
+.shadow1 {
+  box-shadow: 4px 4px 8px 0px rgba(226, 226, 226, 0.2),
+    -4px 4px 8px 0px rgba(226, 226, 226, 0.2);
+}
+
+.ReactModal__Overlay--after-open {
+  overflow: hidden;
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Mạnh Tiến",
+      "password": "$2b$10$MIP/926e3iOYblF1X7lc/uRk4iK031AUh5/i6hRWq2jI58oyv9G.m",
+      "email": "nguyenmanhtien2002bl@gmail.com",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6Ik5ndXnhu4VuIE3huqFuaCBUaeG6v24iLCJpYXQiOjE2OTQ5MTcyMjIsImV4cCI6MTY5NTA5MDAyMn0.dJD6QD-apL5MdHKTqYl6L_AN8NLMd4s-J7hhUVJ1MAU"
+    },
+    {
+      "id": 3,
+      "name": "hihi",
+      "password": "$2b$10$eAv2CuWiD0s3eIgtER/tjOaEXK8UvF1cyAUpyl3naIOhpQ7XE.BaC",
+      "email": "hihi@gmail.com",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmFtZSI6ImhpaGkiLCJpYXQiOjE2OTQ2ODc1MjUsImV4cCI6MTY5NDg2MDMyNX0.y1wFAcm3-oShSMHm0EDrZcrTzsTqdLt7cbFMw2kjVXk"
+    },
+    {
+      "id": 4,
+      "name": "Hảo Hảo",
+      "password": "$2b$10$SvJZ057TmjkJV1brf063z.OgBYe7Wzuxmd9gVrv4WWqj10RFyntx.",
+      "email": "hao88@gmail.com",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibmFtZSI6IkjhuqNvIEjhuqNvIiwiaWF0IjoxNjk1MTQxNTgzLCJleHAiOjE2OTUzMTQzODN9.R3g_DH9FT42yCujdnOdRcDnAuzAcf4Xr72H4WlDGaGU",
+      "permissions": ["CREATE_CAMPAIGN", "CREATE_CATEGORY"]
+    }
+  ],
+  "categories": [
+    { "name": "Video Games", "slug": "video-games", "id": 1 },
+    { "name": "Teiew", "slug": "teiew", "id": 4 },
+    { "name": "Clothe & Wearables", "slug": "clothe-and-wearables", "id": 5 }
+  ],
+  "campaigns": [
+    {
+      "title": "hihi Tiến 2",
+      "short_description": "",
+      "slug": "hihi-tien-2",
+      "goal": "",
+      "amount": "",
+      "prefilled": "",
+      "video": "",
+      "startDate": "",
+      "endDate": "",
+      "category": { "name": "Video Games", "slug": "video-games", "id": 1 },
+      "hot": true,
+      "content": "",
+      "user": {
+        "id": 4,
+        "name": "Hảo Hảo",
+        "password": "$2b$10$SvJZ057TmjkJV1brf063z.OgBYe7Wzuxmd9gVrv4WWqj10RFyntx.",
+        "email": "hao88@gmail.com",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibmFtZSI6IkjhuqNvIEjhuqNvIiwiaWF0IjoxNjk1MDQ4NDM5LCJleHAiOjE2OTUyMjEyMzl9.TijvicKd1TrLeiVQNsRxXFFja8BVxc7mIJr0DtrqY9c",
+        "permissions": ["CREATE_CAMPAIGN", "CREATE_CATEGORY"]
+      },
+      "id": 2
+    },
+    {
+      "title": "test 2",
+      "short_description": "",
+      "slug": "test-2",
+      "goal": "",
+      "amount": "",
+      "prefilled": "",
+      "video": "",
+      "startDate": "",
+      "endDate": "",
+      "content": "",
+      "user": {
+        "id": 4,
+        "name": "Hảo Hảo",
+        "password": "$2b$10$SvJZ057TmjkJV1brf063z.OgBYe7Wzuxmd9gVrv4WWqj10RFyntx.",
+        "email": "hao88@gmail.com",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibmFtZSI6IkjhuqNvIEjhuqNvIiwiaWF0IjoxNjk1MDUyNjA0LCJleHAiOjE2OTUyMjU0MDR9.udaqRqrPTImCs-4CBKUvA3Lfn80ABgc1SP731Lygf3o",
+        "permissions": ["CREATE_CAMPAIGN", "CREATE_CATEGORY"]
+      },
+      "id": 4
+    },
+    {
+      "title": "Cảm thấy khó khăn khi chuyển sang học một ngôn ngữ mới",
+      "short_description": "",
+      "slug": "cam-thay-kho-khan-khi-chuyen-sang-hoc-mot-ngon-ngu-moi",
+      "goal": "",
+      "amount": "",
+      "prefilled": "",
+      "video": "",
+      "startDate": "",
+      "endDate": "",
+      "category": { "name": "Video Games", "slug": "video-games", "id": 1 },
+      "content": "",
+      "hot": true,
+      "user": {
+        "id": 4,
+        "name": "Hảo Hảo",
+        "password": "$2b$10$SvJZ057TmjkJV1brf063z.OgBYe7Wzuxmd9gVrv4WWqj10RFyntx.",
+        "email": "hao88@gmail.com",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibmFtZSI6IkjhuqNvIEjhuqNvIiwiaWF0IjoxNjk1MDU1NjI1LCJleHAiOjE2OTUyMjg0MjV9.PZOARzVC5VZby59EHfNOXgKgWB6SpoNfoXN6sdJ_w5o",
+        "permissions": ["CREATE_CAMPAIGN", "CREATE_CATEGORY"]
+      },
+      "id": 5
+    },
+    {
+      "title": "test3",
+      "short_description": "",
+      "slug": "test3",
+      "goal": "",
+      "amount": "",
+      "prefilled": "",
+      "video": "",
+      "startDate": "",
+      "endDate": "",
+      "category": { "name": "Teiew", "slug": "teiew", "id": 4 },
+      "content": "",
+      "user": {
+        "id": 4,
+        "name": "Hảo Hảo",
+        "password": "$2b$10$SvJZ057TmjkJV1brf063z.OgBYe7Wzuxmd9gVrv4WWqj10RFyntx.",
+        "email": "hao88@gmail.com",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibmFtZSI6IkjhuqNvIEjhuqNvIiwiaWF0IjoxNjk1MTM5MTAyLCJleHAiOjE2OTUzMTE5MDJ9.-wFKmMns2BDOT9rmDmTUJNERyHuMulEkMdagiNRgDkE",
+        "permissions": ["CREATE_CAMPAIGN", "CREATE_CATEGORY"]
+      },
+      "id": 6
+    }
+  ],
+  "cart": []
+}
